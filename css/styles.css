@@ -144,6 +144,7 @@ body {
 }
 .button-primary:hover {
   background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero {
@@ -408,6 +409,6 @@ footer {
 .sample-nav {
   margin-bottom: 50px;
   display: flex;
-
+  gap: 8px;
   justify-content: center;
 }
