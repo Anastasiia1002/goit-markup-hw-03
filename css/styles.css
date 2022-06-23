@@ -15,11 +15,17 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
   box-sizing: border-box;
-  width: 1600px;
+  /* max-width: 1600px; */
   margin-left: auto;
   margin-right: auto;
 }
 /* ---------------header   */
+header {
+  border-bottom: 1px solid #ececec;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .header-container {
   margin-left: auto;
@@ -29,7 +35,6 @@ body {
   display: block;
   align-items: center;
   width: 1200px;
-  border-bottom: 1px solid #ececec;
 }
 
 .list {
@@ -161,7 +166,7 @@ body {
 
 .hero {
   background-color: #2f303a;
-
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
@@ -260,6 +265,7 @@ p {
   gap: 30px;
   padding: 0;
   margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .team-list img {
@@ -310,6 +316,7 @@ footer {
   padding-bottom: 0;
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
 }
 
 .footer-nav {
@@ -319,6 +326,13 @@ footer {
   padding-right: 0px;
   margin: 0;
   margin-top: 20px;
+}
+.footer-nav li {
+  margin-bottom: 9px;
+}
+
+.footer-nav li:last-child {
+  margin-bottom: 0;
 }
 
 .footer-nav a {
